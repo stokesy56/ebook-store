@@ -8,3 +8,4 @@ password = 'Passw0rd2018'
 
 db_books = Books(server,database,username,password)
 db_books.print_all_entries()
+print(db_books.find_book('Stormbreaker'))
